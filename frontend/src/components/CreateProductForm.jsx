@@ -65,7 +65,7 @@ const CreateProductForm = () => {
       transition={{ duration: 0.8 }}
     >
       <h2 className="text-2xl font-semibold mb-6 text-emerald-300">
-        Create a New Product
+        Create a New Food Item
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -74,7 +74,7 @@ const CreateProductForm = () => {
             htmlFor="name"
             className="block text-sm font-medium text-gray-300"
           >
-            Product Name
+            Food Name
           </label>
           <input
             type="text"
