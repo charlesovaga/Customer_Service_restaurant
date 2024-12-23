@@ -43,7 +43,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
             <div
               className="flex transition-transform duration-300 ease-in-out"
               style={{
-                transform: `translateX(-₦{
+                transform: `translateX(-${
                   currentIndex * (100 / itemsPerPage)
                 }%)`,
               }}
@@ -58,7 +58,7 @@ const FeaturedProducts = ({ featuredProducts }) => {
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="w-full h-48 object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                        className="w-full h-32 object-cover transition-transform duration-300 ease-in-out hover:scale-110"
                       />
                     </div>
                     <div className="p-4">
