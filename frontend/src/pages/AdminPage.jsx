@@ -9,8 +9,8 @@ import ProductsList from "../components/ProductsList";
 import { useProductStore } from "../stores/useProductStore";
 
 const tabs = [
-  { id: "create", label: "Create Product", icon: PlusCircle },
-  { id: "products", label: "Products", icon: ShoppingBasket },
+  { id: "create", label: "Create", icon: PlusCircle },
+  { id: "products", label: "Foods", icon: ShoppingBasket },
   // { id: "orders", label: "Orders", icon: BarChart },
   { id: "analytics", label: "Analytics", icon: BarChart },
 ];
